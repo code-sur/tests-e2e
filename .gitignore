@@ -1,4 +1,8 @@
 jdk
 maven
 tomcat
+
 target/
+
+.idea/
+*.iml
