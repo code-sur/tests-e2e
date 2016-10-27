@@ -27,5 +27,5 @@ PS1="jdk$BOLD$JDK_VERSION$NO_BOLD $PS1"
 
 
 startserver() {
-  $BASEDIR/tomcat/bin/startup.sh
+  mvn tomcat7:run
 }
