@@ -9,7 +9,6 @@ class WebClient {
     private final WebDriver driver;
 
     WebClient() {
-        System.setProperty("webdriver.gecko.driver", "geckodriver");
         driver = new FirefoxDriver();
     }
 

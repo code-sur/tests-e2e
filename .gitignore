@@ -1,5 +1,6 @@
 jdk
 maven
+geckodriver
 
 target/
 
