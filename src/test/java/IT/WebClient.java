@@ -3,13 +3,14 @@ package IT;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 class WebClient {
 
     private final WebDriver driver;
 
     WebClient() {
-        driver = new FirefoxDriver();
+        driver = new PhantomJSDriver();
     }
 
     void goToBegin() {
